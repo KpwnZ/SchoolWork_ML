@@ -28,7 +28,7 @@ void ColorBox::update() {
         b = b + (colors[i].b) / (i + 1);
     }
 
-    mainColor = {r, b, b};
+    mainColor = {r, g, b};
 }
 
 ColorCollection::ColorCollection(cv::Mat &image) {
